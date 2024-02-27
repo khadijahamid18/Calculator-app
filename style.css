@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Ubuntu:wght@300&display=swap');
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    background: slategrey;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    height: 400px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.buttons {
+    /* display: flex;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+    margin-top: 10px;
+    flex-direction: column; */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    height: 400px;
+}
+
+button {
+    width: 60px;
+    height: 50px;
+    font-size: 18px;
+    cursor: pointer;
+    background: lightgrey;
+    box-shadow: -4px -4px 4px;
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 15px;
+    margin: 5px;
+}
+
+/* .btn {
+    padding: 15px;
+    margin: 5px;
+    border: 2px solid black;
+    border-radius: 25px;
+    width: 66px;
+    font-size: 20px;
+    cursor: pointer;
+    background: lightgrey;
+    box-shadow: -4px -4px  ;
+} */
+
+button:hover {
+    background: gray;
+}
+
+.row input {
+    width: 300px;
+    padding: 5px;
+    margin: 5px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.row {
+    margin: 8px;
+}
